@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('сгеу_ип.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yesButton {
+    background-color: #6bd400;
+    color: white;
+}
+
+#noButton {
+    background-color: #d40000;
+    color: white;
+    margin-left: 10px; /* Add some spacing between buttons */
+}
+
+/* styles.css */
+/* Existing CSS styles */
+.hidden {
+    display: none;
+}
+
+#result {
+    visibility: visible;
+}
+
+#resultImage {
+    width: 500px; /* Set width to 300 pixels */
+    height: 400px; /* Set height to 200 pixels */
+}
